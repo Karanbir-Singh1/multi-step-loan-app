@@ -2,13 +2,13 @@ const AuthShell = ({ title, subtitle, children }) => (
   <main className="grid min-h-screen grid-cols-1 lg:grid-cols-[0.9fr_1.1fr]">
     <section className="hidden bg-ink p-10 text-white lg:flex lg:flex-col lg:justify-between">
       <div>
-        <h1 className="text-3xl font-bold">Team Task Manager</h1>
+        <h1 className="text-3xl font-bold">Multi-Step Loan App</h1>
         <p className="mt-4 max-w-md text-slate-300">
-          Coordinate projects, assign work, and keep delivery progress visible across every team.
+          Apply for loans, upload required documents, and track your application status step-by-step.
         </p>
       </div>
       <div className="grid grid-cols-3 gap-3 text-sm">
-        {['Projects', 'Tasks', 'Progress'].map((item) => (
+        {['Apply', 'Verify', 'Approve'].map((item) => (
           <div key={item} className="rounded-lg bg-white/10 p-4">
             {item}
           </div>

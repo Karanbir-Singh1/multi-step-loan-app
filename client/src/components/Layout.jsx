@@ -23,7 +23,7 @@ const Layout = () => {
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 animate-fade-in transition-colors duration-300">
       <aside className="fixed inset-y-0 left-0 hidden w-64 border-r border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-5 md:block">
         <div className="mb-8 animate-fade-up">
-          <p className="text-xl font-bold text-slate-900 dark:text-slate-50 tracking-tight">Team Task Manager</p>
+          <p className="text-xl font-bold text-slate-900 dark:text-slate-50 tracking-tight">Multi-Step Loan App</p>
           <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{user?.name}</p>
         </div>
         <nav className="space-y-2">

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Layers, Moon, Sun } from 'lucide-react';
+import { Coins, Moon, Sun } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext.jsx';
 
 const Navbar = () => {
@@ -11,9 +11,9 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2 text-slate-900 dark:text-slate-100 group">
             <div className="bg-brand p-1.5 rounded-lg text-white group-hover:bg-brand-dark transition-colors shadow-inner">
-              <Layers size={24} />
+              <Coins size={24} />
             </div>
-            <span className="font-bold text-xl tracking-tight">Team Task Manager</span>
+            <span className="font-bold text-xl tracking-tight">Multi-Step Loan App</span>
           </Link>
           <div className="flex items-center space-x-4">
             <button 
