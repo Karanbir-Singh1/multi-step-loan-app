@@ -66,15 +66,6 @@ npm install
 ### 2. Environment Configuration
 You need to set up environment variables for both the client and server.
 
-**Server (`server/.env`):**
-Create a `.env` file in the `server` directory and add the following:
-```env
-PORT=5000
-MONGODB_URI=mongodb://127.0.0.1:27017/task-manager   # Replace with your Atlas URI if using cloud DB
-JWT_SECRET=your_super_secret_jwt_key_here            # Must be a strong, random string
-NODE_ENV=development
-```
-
 **Client (`client/.env`):**
 Create a `.env` file in the `client` directory and add the following:
 ```env
